@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,9 +7,8 @@
       content="width=device-width, user-scalable=no , initial-scale=1.0"
     />
     <title>Around The US</title>
-    <link rel="stylesheet" href="./blocks/page.css" />
-    <link rel="stylesheet" href="./blocks/header.css" />
-    <link rel="stylesheet" href="./blocks/profile.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
   </head>
   <body class="page">
     <header class="header">
@@ -20,25 +19,25 @@
       />
     </header>
 
-    <div class="profile">
+    <main class="profile">
       <img
         src="./images/jacques-cousteau.jpg"
         alt="Profile Picture"
         class="profile__image"
       />
-      <div class="profile__info">
-        <div class="profile__name">Jacques Cousteau</div>
+      <section class="profile__info">
+        <h1 class="profile__name">Jacques Cousteau</h1>
         <img
           src="./images/edit_icon.svg"
           alt="edit button"
           class="profile__edit"
         />
-        <div class="profile__subtext">Explorer</div>
-      </div>
+        <h2 class="profile__subtext">Explorer</h2>
+      </section>
       <img src="./images/add_icon.svg" alt="Add Button" class="profile__add" />
-    </div>
+    </main>
 
-    <div class="elements"></div>
+    <section class="elements"></section>
     <footer class="footer"></footer>
   </body>
 </html>

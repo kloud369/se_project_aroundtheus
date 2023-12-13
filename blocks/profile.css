@@ -2,7 +2,7 @@
   display: flex;
   max-width: 880px;
   max-height: 120px;
-  margin: 40px 200px;
+  margin: 40px auto;
 }
 .profile__image {
   width: 120px;

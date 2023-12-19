@@ -46,7 +46,6 @@
   position: relative;
   align-self: center;
   opacity: 1;
-  position: relative;
   transition: opacity 0.4s ease;
 }
 

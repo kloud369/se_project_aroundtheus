@@ -21,4 +21,4 @@ This project moves away from the original Figma content with a personal Avatar p
 
 **GitHub**
 
-- (https://github.com/kloud369/se_project_aroundtheus.git)
+- https://github.com/kloud369/se_project_aroundtheus.git

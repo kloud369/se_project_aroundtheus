@@ -9,7 +9,7 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. It is built from scratch and incorporates the use of media queries to create a responsive design layout that adjusts accordiningly through breakpoints as you go from a desktop view, to a tablet view, ending in a mobile view.
+This project is made so all the elements are displayed correctly on popular screen sizes. It is built from scratch and incorporates the use of media queries to create a responsive design layout that adjusts accordingly through breakpoints as you go from a desktop view, to a tablet view, ending in a mobile view.
 
 **Customization**
 

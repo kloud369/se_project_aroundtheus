@@ -1,7 +1,12 @@
+.header__container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .header {
   display: flex;
-  height: 74px;
-  margin-top: 45px;
+  min-height: 74px;
+  margin-top: 28px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
@@ -11,9 +16,25 @@
 }
 
 @media screen and (max-width: 620px) {
+  .header__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header {
+    min-height: 58px;
+  }
+
   .header__logo {
-    width: 126px;
-    height: 24px;
-    margin-left: 27px;
+    max-width: 126px;
+    max-height: 24px;
+    padding-left: 27px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

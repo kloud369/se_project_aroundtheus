@@ -41,7 +41,7 @@
   transition: opacity 0.4s ease;
 }
 
-.card__like-button_image {
+.card__like-button-image {
   width: 21px;
   height: 18px;
 }

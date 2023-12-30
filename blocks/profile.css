@@ -115,14 +115,15 @@
   .profile__info {
     padding: 30px 30px 36px;
     grid-column-gap: 18px;
-    max-height: 50px;
+    min-height: 50px;
   }
   .profile__name {
     font-size: 22px;
     justify-self: center;
     line-height: 1.2;
-    max-height: 22px;
+    min-height: 22px;
     margin-left: 20px;
+    max-width: 170px;
   }
 
   .profile__subtext {
@@ -130,7 +131,7 @@
     justify-self: center;
     line-height: 1.2;
     padding-top: 14px;
-    max-height: 14px;
+    min-height: 14px;
   }
 
   .profile__edit-button {

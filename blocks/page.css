@@ -18,19 +18,7 @@
   min-height: 100vh;
 }
 
-.page__header-container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .page__main {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-@media screen and (max-width: 620px) {
-  .page__header-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }

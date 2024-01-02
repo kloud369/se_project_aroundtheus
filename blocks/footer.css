@@ -1,6 +1,7 @@
 .footer {
   box-sizing: border-box;
   padding-top: 67px;
+  padding-bottom: 60px;
 }
 
 .footer__text {
@@ -15,8 +16,6 @@
 @media screen and (max-width: 919px) {
   .footer {
     max-width: 581px;
-  }
-  .footer__text {
     padding-bottom: 35px;
   }
 }

@@ -13,7 +13,7 @@ This project is made so all the elements are displayed correctly on popular scre
 
 **Customization**
 
-This project moves away from the original Figma content with a personal Avatar photo, name change to reflect the author, and original photos of locations around the US all while keeping the original layout and design. Since my name is shorter, adjustments had to be made to the profile info section to keep up with the Figma design and responsive layout requirements.
+This project moves away from the original Figma content with a personal Avatar photo, name change to reflect the author, and personal photos of locations around the US all while keeping the original layout and design. Since my name is shorter, adjustments had to be made to the profile info section to keep up with the Figma design and responsive layout requirements.
 
 **Figma**
 
@@ -22,3 +22,7 @@ This project moves away from the original Figma content with a personal Avatar p
 **GitHub**
 
 - https://github.com/kloud369/se_project_aroundtheus.git
+
+**Video**
+
+- https://drive.google.com/file/d/1H5bxQA8XZAXhKr3sUFNlaouM3MB6sZ6k/view?usp=drive_link

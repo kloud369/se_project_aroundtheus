@@ -1,7 +1,7 @@
 .header {
   display: flex;
   min-height: 74px;
-  margin-top: 28px;
+  margin-top: 45px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
@@ -19,6 +19,7 @@
 @media screen and (max-width: 620px) {
   .header {
     min-height: 58px;
+    margin-top: 28px;
     padding-left: 0;
     padding-right: 0;
   }

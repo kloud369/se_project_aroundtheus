@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 680px) {
   .profile__info {
-    grid-template-columns: minmax(auto, 155px) auto;
+    grid-template-columns: minmax(auto, 170px) auto;
   }
   .profile__name {
     font-size: 22px;
@@ -123,7 +123,7 @@
     line-height: 1.2;
     min-height: 22px;
     margin-left: 20px;
-    max-width: 170px;
+    max-width: 160px;
   }
 
   .profile__subtext {
@@ -132,6 +132,7 @@
     line-height: 1.2;
     padding-top: 14px;
     min-height: 14px;
+    max-width: 222px;
   }
 
   .profile__edit-button {

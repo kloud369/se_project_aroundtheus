@@ -1,0 +1,123 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+  padding: 19px;
+}
+
+.modal_opened {
+  display: flex;
+}
+
+.modal__container {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 36px;
+  border-radius: 10px;
+}
+
+.modal__close {
+  background-image: url("../images/Close\ Icon.svg");
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+}
+
+.modal__heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.2;
+  width: 358px;
+  margin-top: 0;
+  margin-bottom: 55px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  appearance: none;
+  gap: 30px;
+}
+
+.modal__form-input {
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.modal__form-input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.modal__form-input::-moz-placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.modal__form-input::-webkit-input-placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.modal__button {
+  height: 50px;
+  background-color: #000;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+}
+
+@media screen and (max-width: 620px) {
+  .modal__container {
+    max-width: 282px;
+    top: 155px;
+    border-radius: 10px;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    bottom: calc(100% + 26px);
+    left: calc(100% - 26px);
+    margin-top: 91px;
+  }
+
+  .modal__heading {
+    font-size: 18px;
+    width: 238px;
+    margin-bottom: 75px;
+  }
+}

@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 
-.profile__name {
+.profile__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 42px;
@@ -117,7 +117,7 @@
     grid-column-gap: 18px;
     min-height: 50px;
   }
-  .profile__name {
+  .profile__title {
     font-size: 22px;
     justify-self: center;
     line-height: 1.2;

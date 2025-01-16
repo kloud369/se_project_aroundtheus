@@ -85,7 +85,7 @@
   color: #000;
 }
 
-.modal__button {
+.modal__save-button {
   height: 50px;
   background-color: #000;
   border: none;
@@ -98,6 +98,14 @@
   text-align: center;
   margin-top: 20px;
   padding: 0;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.modal__save-button:hover {
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 620px) {
